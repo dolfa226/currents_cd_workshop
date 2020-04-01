@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Advanced Features Starter Pack</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="assets/main.css">
+</head>
+<body>
+
+  <div class="buttoncontainer">
+    <button id="button"> Start audio </button> 
+    <button class="disabled" id="stop_button">  Stop Listening </button>
+  </div>
+  
+  <div class="messagecontainer">
+
+
+    <div class="computertext"> 
+      <p>Commands</p>
+      <p class="instructions">Put on glasses (to clear the screen)</p>
+      <p class="instructions">Wipe the lens (to maintain clarity)</p>
+      <p class="instructions"> Continue to clear (completely clear)</p>
+      <p class="instructions"> Take off glasses </p>
+
+    </div>
+
+  
+    <div id="state_container"> 
+      <img class="state_image" id="listening" src="assets/wix_dots.gif">
+    </div>
+
+    <div id="input_text_container">
+      <!-- <p id="usertext">You Said:</p> -->
+      <div id="input_text"></div>
+    </div>
+  
+    <div id='output_container'></div>
+  
+  </div>
+
+
+  <div id="rec"></div>
+  <img id="water" src="assets/water.jpg">
+
+
+
+
+
+  <script type="text/javascript" src="assets/annyang_minified.js"></script>
+  <script type="text/javascript" src="assets/script.js"></script>
+</body>
+</html>
